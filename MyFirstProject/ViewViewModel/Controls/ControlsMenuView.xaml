@@ -6,9 +6,22 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Controls Page!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Grid.Row="0"
+                   Grid.Column="0"
+                   Text="Slider"
+                   Command="{Binding OnSliderViewClicked}"/>
+            <Button Grid.Row="0"
+                   Grid.Column="0"
+                   Text="Stepper"
+                   Command="{Binding OnListViewImagesClicked}"/>
+            <Button Grid.Row="0"
+                   Grid.Column="0"
+                   Text="Switch"
+                   Command="{Binding OnListViewButtonsClicked}"/>
+            <Button Grid.Row="0"
+                   Grid.Column="0"
+                   Text="t"
+                   Command="{Binding OnListViewIconsClicked}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
